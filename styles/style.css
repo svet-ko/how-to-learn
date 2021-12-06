@@ -203,7 +203,6 @@
 
 .feynman__title {
   width: 648px;
-  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -313,16 +312,22 @@
 .footer__column-links {
   padding: 0;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
+/* стили для варианта с дополнительным элементом, которого нет в брифе
 .footer__list-item {
   list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
+}*/
 
 .footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   color: white;
   text-decoration: none;
 }
@@ -331,6 +336,7 @@
   padding-left: 26px;
   background-repeat: no-repeat;
   background-size: 16px 16px;
+  background-position-y: center;
 }
 
 .footer__column-link_background_Facebook {
