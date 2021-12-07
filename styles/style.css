@@ -177,7 +177,11 @@
   font-weight: normal;
 }
 
-.table__text:nth-child(2), .table__text:nth-child(6) {
+.table__text:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.table__text:nth-child(6) {
   margin-bottom: 20px;
 }
 
@@ -229,8 +233,8 @@
   align-items: center;
   text-align: center;
   background-color: #1f1f1f;
-  z-index: -2;
   overflow: hidden;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
