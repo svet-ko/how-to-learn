@@ -21,10 +21,6 @@
   overflow: hidden;
 }
 
-.header_space_bottom {
-  margin-bottom: 100px;
-}
-
 .header__title {
   width: 730px;
   margin: 0;
@@ -36,6 +32,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -87,10 +84,7 @@
 .description {
   display: flex;
   justify-content: center;
-}
-
-.description_space_bottom {
-  margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -132,22 +126,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.digits_space_bottom {
-  margin-bottom: 100px;
+  padding: 100px 0;
 }
 
 .section-title {
   width: 60%;
   margin: 0;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-}
-
-.section-title_space_bottom {
-  margin-bottom: 20px;
 }
 
 .section-subtitle {
@@ -159,6 +147,9 @@
 }
 
 .table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -186,12 +177,12 @@
   font-weight: normal;
 }
 
-.table__text_space_bottom {
+.table__text:nth-child(2), .table__text:nth-child(6) {
   margin-bottom: 20px;
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   padding-top: 100px;
   background-image: url('../images/feynman.png');
@@ -317,14 +308,6 @@
   flex-direction: column;
 }
 
-/* стили для варианта с дополнительным элементом, которого нет в брифе
-.footer__list-item {
-  list-style: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-}*/
-
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
@@ -333,21 +316,23 @@
   text-decoration: none;
 }
 
-.footer__column-link_style_background {
-  padding-left: 26px;
-  background-repeat: no-repeat;
-  background-size: 16px 16px;
+.footer__social-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
   background-position-y: center;
+  background-repeat: no-repeat;
+  padding-right: 10px;
 }
 
-.footer__column-link_background_Facebook {
+.footer__social-icon_background_Facebook {
   background-image: url('../images/facebook_color_white.svg');
 }
 
-.footer__column-link_background_VK {
+.footer__social-icon_background_VK {
   background-image: url('../images/vk_color_white.svg');
 }
 
-.footer__column-link_background_Inst {
+.footer__social-icon_background_Inst {
   background-image: url('../images/instagram_color_white.svg');
 }
