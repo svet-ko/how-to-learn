@@ -3,10 +3,4 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  text-decoration: none;
-}
-
-.footer__column-link:hover {
-  opacity: .6;
-  transition: opacity 200ms ease-in-out;
 }
