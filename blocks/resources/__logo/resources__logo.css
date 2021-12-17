@@ -3,5 +3,6 @@
   height: 38px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   display: block;
 }
