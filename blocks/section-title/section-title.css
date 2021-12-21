@@ -1,4 +1,6 @@
 .section-title {
+  margin: 0;
+  padding: 0;
   width: 60%;
   margin-bottom: 20px;
   line-height: 1.15;

@@ -1,7 +1,6 @@
 .cards__item {
   padding-top: 60px;
-  --item-width: calc((var(--container-width) - 200px) / 3);
-  width: var(--item-width);
+  width: 240px;
   margin-right: 100px;
 }
 
